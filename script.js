@@ -21,7 +21,7 @@ let noClickCount = 0;
 function moveNoButton() {
   noClickCount++;
   
-  if (noClickCount >= 5) {
+  if (noClickCount >= 10) {
     noBtn.style.display = "none";
     return;
   }
